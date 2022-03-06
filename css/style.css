@@ -1,0 +1,106 @@
+/* Main Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #3E517A;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Layout Styles */
+.container-flex {
+    display: flex;
+    justify-content: center;
+    max-width: 34.375em;
+    margin: 4.5em auto;
+}
+
+.color-scheme-wrapper {
+    width: 34.375em;
+}
+
+.color-pillars-wrapper {
+    display: flex;
+}
+
+.color-code-wrapper {
+    display: flex;
+    background: #ffffff;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+.color-pillar {
+    height: 25em;
+    width: 7.25em;
+}
+
+
+/* Form Styles */
+.form-group {
+    background: #fff;
+    padding: 1.5625em 1.1875em
+}
+
+.form-group form {
+    display: flex;
+    align-items: center;
+}
+
+.form-group input, 
+.form-group select, 
+.form-group button {
+    height: 3em;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #D1D5DB;
+}
+
+input,
+select {
+    margin-right: 0.8em
+}
+
+.form-group select, 
+.form-group button {
+    border-radius: 6px;
+}
+
+.form-group input {
+    padding: 0;
+}
+
+.form-group select {
+    width: 23.5em;
+    padding-left: 1em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+.form-group button {
+    background: #fff;
+    padding: 0.8125em 0.6875em;
+    font-size: 0.75rem;
+    height: 3.3em;
+    font-weight: 500;
+}
